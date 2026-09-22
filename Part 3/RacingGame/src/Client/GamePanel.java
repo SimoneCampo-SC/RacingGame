@@ -32,7 +32,7 @@ public class GamePanel extends JPanel implements KeyListener {
                 paintRaceTrack(g, game.getRaceTrack());
                 paintCar(g, game.getPlayerCar());
                 paintCar(g, game.getOpponentCar());
-                if(game.getPlayerCar().getName() == "Red Car") {
+                if ("Red Car".equals(game.getPlayerCar().getName())) {
                     paintRedCarElements(g);
                 } else {
                     paintYellowCarElements(g);
