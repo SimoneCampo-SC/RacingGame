@@ -17,7 +17,7 @@ public class Game {
 
     public Game(String mainCar) {
         carName = mainCar;
-        if (carName == "red") {
+        if ("red".equals(carName)) {
             ClientData.playerCar = new Car("carProperties/redCar/%s.png", "Red Car", Configurations.RED_CAR_INITIAL_X, Configurations.RED_CAR_INITIAL_Y);
         } else {
             ClientData.playerCar = new Car("carProperties/yellowCar/%s.png", "Yellow Car", Configurations.YELLOW_CAR_INITIAL_X, Configurations.YELLOW_CAR_INITIAL_Y);
