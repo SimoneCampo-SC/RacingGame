@@ -1,0 +1,15 @@
+# macOS
+.DS_Store
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Java build output
+out/
+*.class
+
+# Common Java build directories
+build/
+target/
+.gradle/
